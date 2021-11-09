@@ -1,4 +1,4 @@
-import react, { useContext } from 'react';
+import { useContext } from 'react';
 import {GlobalContext} from "../context/globalState";
 
 function Balance(){

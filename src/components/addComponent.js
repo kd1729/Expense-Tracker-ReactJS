@@ -1,4 +1,4 @@
-import react, { useContext, useState } from 'react';
+import { useContext, useState } from 'react';
 import {GlobalContext} from '../context/globalState';
 
 function AddComponent() {

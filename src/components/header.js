@@ -1,5 +1,3 @@
-import react from 'react'
-
 function Header () {
     return(
         <h1> Expense Tracker</h1>
