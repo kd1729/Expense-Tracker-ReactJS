@@ -1,4 +1,4 @@
-import react, { useContext } from 'react';
+import { useContext } from 'react';
 import { GlobalContext } from '../context/globalState';
 
 function IncomeExpense(){
@@ -12,9 +12,9 @@ function IncomeExpense(){
     .toFixed(2);
 
   const expense = (
-    amounts.filter(item => item < 0).reduce((acc, item) => (acc += item), 0) *
-    -1
-  ).toFixed(2);
+    amounts.filter(item => item < 0)
+    .reduce((acc, item) => (acc += item), 0)
+    *-1).toFixed(2);
 
 
     return (
